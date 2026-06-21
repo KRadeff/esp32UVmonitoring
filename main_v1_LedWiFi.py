@@ -5,9 +5,9 @@ import urequests
 from bh1750 import BH1750
 
 # 1. Настройки
-WIFI_SSID = "DLink 25"
-WIFI_PASS = "0123456789."
-THINGSPEAK_API_KEY = "K1DOT3XEJOQXWKN1"
+WIFI_SSID = "YOUR_SSID"
+WIFI_PASS = "YOUR_PASS"
+THINGSPEAK_API_KEY = "YOUR_API"
 
 # 2. Хардуер
 i2c = machine.I2C(0, sda=machine.Pin(21), scl=machine.Pin(22))

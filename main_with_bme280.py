@@ -7,9 +7,9 @@ from bh1750 import BH1750
 from bme280 import BME280
 
 # 1. Настройки
-WIFI_SSID = "DLink 25"
-WIFI_PASS = "0123456789."
-THINGSPEAK_API_KEY = "K1DOT3XEJOQXWKN1"
+WIFI_SSID = ""
+WIFI_PASS = ""
+THINGSPEAK_API_KEY = ""
 HTTP_TIMEOUT_S = 8  # максимално чакане за HTTPS заявка, преди да отказваме
 
 # 2. Хардуер
